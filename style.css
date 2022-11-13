@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@media screen and (max-width: 1000px) {
+    .quote-container {
+        margin: auto 1rem;
+    }
+    .quote-text{
+        font-size: 2.5rem;
+    }
+}
+
 html {
     box-sizing: border-box;
 }
@@ -99,13 +108,3 @@ button:active {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-
-/*Media query*/
-@media screen and (max-width: 1000px) {
-    .quote-container {
-        margin: auto 1rem;
-    }
-    .quote-text{
-        font-size: 2.5rem;
-    }
-}
